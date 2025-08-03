@@ -114,8 +114,8 @@ const ContactList = ({ contacts, deleteContact }) => {
 // Komponen Utama
 function App() {
   const [contacts, setContacts] = useState([
-    { id: 1, name: "Jhonathan", phone: "081234567890" },
-    { id: 2, name: "Saitama", phone: "087654321098" },
+    { id: 1, name: "wok de tok", phone: "081234567890" },
+    { id: 2, name: "Sumanto", phone: "087654321098" },
   ]);
 
   const addContact = (contact) => {
